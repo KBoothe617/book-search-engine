@@ -2,7 +2,7 @@
 import BookInput from './typedefs'; // Used in saveBook mutation resolver
 import { BookDocument } from '../models/Book.js';
 import User, { UserDocument } from '../models/User.js';
-import { signToken, AuthenticationError } from '../utils/auth.js'; 
+import { signToken, AuthenticationError } from '../services/auth.js'; 
 
 const resolvers = {
     Query: {
